@@ -143,3 +143,9 @@ https://azuredevopslabs.com/labs/azuredevops/appinsights/
 
   - Utilize a mesma ideia para criar as releases de staging e produção(sem slot), porém realize o dacpac nesses ambientes junto da etapa corrente, devido ao fato do dacpac atualizar o banco de dados, assim devemos apenas atualizar o banco durante a etapa de deploy daquele ambiente.
   
+  
+## Application Insights
+
+  - Verifique se o application insights estão com as chaves corretas. (Como utilizamos a criação da chave automatica, já deve estar configurada)
+  - Assim podemos ter alguns insights sobre a aplicação e seus usuários. 
+
